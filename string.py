@@ -47,3 +47,6 @@ my_string = ''.join(new_list)
 print(my_string)
 
 #  one more topic is f strings
+var = "karthik"
+new_string = f"my name is {var}"
+print(new_string)
