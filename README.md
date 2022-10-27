@@ -9,4 +9,6 @@
 * set
 * string
 * OOps
+   * inheritence
+   * polymorphism
 
