@@ -48,3 +48,16 @@ print(s1)  # override the print operator
 print(s1 + s2)  # Student.__add__(s1,s2)
 
 # there is no method overloading in python
+
+# method overriding
+
+class A:
+    def show(self):
+        print("I am inside A class")
+
+class B(A):
+    def show(self):
+        print("I am inside B class")
+
+obj = B()
+obj.show()
