@@ -3,6 +3,7 @@
 my_string = '''I'm karthik g k the best person in the world'''
 print(my_string)
 
+print(my_string.capitalize()) #capitalizes the given string.
 # accessing a string
 char = my_string[0]
 print(char)
@@ -27,12 +28,15 @@ else:
 
 # strip method on string
 name = "  karthik  "
-print(name.strip())
+print(name.strip())# removes any leading spaces or ending spaces
+print(name.strip("abc")) #among abc if any is present in the beginning and the ending of the string it will be removed.
+print(name.swapcase()) #converts upper case into lower and lower into uppercase
 print(name.upper())
 print(name.lower())
 print(name.startswith(' '))
 print(name.endswith('   '))
 print(my_string.find('lo'))  # returns the index if not returns -1
+print(my_string.index('lo')) # gives an error if the string given is not present
 print(my_string.count('o'))
 print(my_string.replace('karthik', 'universe'))
 
