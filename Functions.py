@@ -1,4 +1,4 @@
-def name:
-     Print("my name is karthik")
+def greet(name, place):
+     print(f'hello {name} welcome {place}')
 
-name()
+greet("karthik", "home")
