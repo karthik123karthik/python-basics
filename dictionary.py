@@ -9,7 +9,7 @@ mydict2 = dict(mydict)
 
 # accesing dictionary elements
 print(mydict["name"])
-
+print(mydict.get("name") # will not give if element is not found instead gives null.
 # adding new key value pair
 mydict["sex"] = "male"
 print(mydict)
