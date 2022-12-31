@@ -41,4 +41,6 @@ mydict3.update(mydict2)
 print(mydict3)
 
 # we cannot use list as key but can use tuples
+     
+mydict.clear() # this method will clear the dictionary
 
