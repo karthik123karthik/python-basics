@@ -19,4 +19,8 @@ match age:
             Print("hello teenager")
      Case _:
            print(" hello adult")
+
+arr = [1,2,3,4,5,6,7,8,9]
+for index,ele in enumerate(arr,start=1): # now index will start from 1
+  print(index,ele) # prints the index and element of the array
    
