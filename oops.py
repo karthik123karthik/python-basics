@@ -1,4 +1,6 @@
 #create a class
+#oops helps developer to get better understanding of the codes
+#oops helps us to think in terms of real world entity.
 class Computer:
     #constructor
     electronic_device = True # static variables
