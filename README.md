@@ -8,6 +8,7 @@
 * dictionary
 * set
 * string
+* file handling
 * OOps
    * inheritence
    * polymorphism
