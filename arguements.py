@@ -30,6 +30,8 @@ def volume(*sides):
      print(sides[0]*sides[1]*sides[2])
 
 volume(20,10,30)
+vol = [20,10,30]
+volume(*vol)
 
 # 5.using double star will consider all arguements as dictionary
 
