@@ -14,7 +14,7 @@ class Computer:
     @classmethod
     def get_info(cls):
         return cls.electronic_device
-    
+    #used to define a static method this is also a decorator.
     @staticmethod
     def say_hi():
         print("hello world")
