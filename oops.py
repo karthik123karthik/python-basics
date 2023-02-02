@@ -11,7 +11,7 @@ class Computer:
     def config(self):
         print(self.cpu, self.ram)
 
-    @classmethod
+    @classmethod #mainly used to define alter constructor.
     def get_info(cls):
         return cls.electronic_device
     #used to define a static method this is also a decorator.
