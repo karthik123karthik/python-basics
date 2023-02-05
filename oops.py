@@ -12,6 +12,8 @@ class Computer:
         print(self.cpu, self.ram)
 
     @classmethod #mainly used to define alter constructor.
+    #to define alternate constructor we use cls() method inside
+
     # also used to alter class variable
     def get_info(cls):
         return cls.electronic_device
