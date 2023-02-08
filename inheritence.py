@@ -24,7 +24,7 @@ class Flight:
 
 class Teslamodel2(Flight, Tesla): # follows MRO i,e left has high priority
     def __init__(self):
-         super().__init__()
+         super().__init__() # this is to call parents class init method or constructor
 
 car1 = Teslamodel2()
 
