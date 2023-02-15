@@ -51,5 +51,7 @@ else:
 print(comp1.get_info())
 comp2.say_hi()
 
+#multiple inheritance is done by using mro method resolution order
+
 
 
