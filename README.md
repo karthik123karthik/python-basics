@@ -12,4 +12,7 @@
 * OOps
    * inheritence
    * polymorphism
+* Os module
+* Dunder methods
+* Doc method in python
 
