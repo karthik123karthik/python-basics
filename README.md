@@ -16,4 +16,5 @@
 * Dunder methods
 * Doc method in python
 * Some projects.
+* Started machine learning
 
