@@ -77,6 +77,9 @@ temp_y_train = compute_func(x_train, w, b)
 # draw the line
 plt.plot(x_train, temp_y_train, c='b', lable="our prediction")
 
+# dot product using numpy
+Arr= np.dot(w,x)
+
 #plot the data
 plt.scatter(x_train, y_train, marker='X', c='r')
 plt.title("house pricing")
