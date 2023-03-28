@@ -17,4 +17,5 @@
 * Doc method in python
 * Some projects.
 * Started machine learning
+* Matplotlib library
 
