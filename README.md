@@ -18,4 +18,5 @@
 * Some projects.
 * Started machine learning
 * Matplotlib library
+* Studied about numpy
 
