@@ -19,4 +19,4 @@
 * Started machine learning
 * Matplotlib library
 * Studied about numpy
-
+* Implementation of gradient descent.
