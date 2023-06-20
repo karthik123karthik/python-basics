@@ -31,14 +31,20 @@ print(len(mylist))
 mylist.append("UVCE")
 print(mylist)
 
+#extract method
+mylist.extract([1,2,3])
+print(mylist) # added the each element at the end of the list
+
 mylist.insert(1, "CSE")
 print(mylist)
 
 # removing items from the list
-last = mylist.pop()
+last = mylist.pop() # it takes the index
+# pop will return the item it have removed
 print(mylist)
 
-mylist.remove("CSE")
+mylist.remove("CSE") # it removes the first occurence and takes value
+# it will not return anything
 print(mylist)
 
 mylist.clear()
