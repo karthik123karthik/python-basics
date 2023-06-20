@@ -32,7 +32,7 @@ mylist.append("UVCE")
 print(mylist)
 
 #extract method
-mylist.extract([1,2,3])
+mylist.extend([1,2,3])
 print(mylist) # added the each element at the end of the list
 
 mylist.insert(1, "CSE")
