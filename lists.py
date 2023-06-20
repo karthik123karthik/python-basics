@@ -85,6 +85,16 @@ print(mylist4)
 mylist4 = [item + item for item in mylist4]
 print(mylist4)
 
+# iterating over two lists parallel
+ls1 = [1,2,3,4,5]
+ls2 = [5,6,7,8,9]
+
+for item in list(zip(ls1, ls2)):
+    print(*item) # prints ( 1 5 , 2 6, 3 7, 4 8, 5 9)
+
+for idx, item in enumerate(ls1):
+    print(idx, item) # prints index then item
+
 
 
 
