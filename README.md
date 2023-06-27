@@ -1,6 +1,4 @@
-# python-basics
-
-## This repository has all the intermediate level of python tutorial
+# python-basic
 
 ### Topics.
 * list
