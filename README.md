@@ -7,7 +7,7 @@
 * set
 * string
 * file handling
-* OOps
+* OOps in Python
    * inheritence
    * polymorphism
 * Os module
