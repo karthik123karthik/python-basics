@@ -1,4 +1,4 @@
-# python-basic.
+# python-basic
 
 ### Topics.
 * list
