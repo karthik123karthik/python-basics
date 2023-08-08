@@ -13,7 +13,7 @@
 * Os module
 * Dunder methods
 * Doc method in python
-* Some projects.
+* Some projects.(snake water gun)
 * Started machine learning
 * Matplotlib library
 * Studied about numpy
