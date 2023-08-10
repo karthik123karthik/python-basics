@@ -18,4 +18,4 @@
 * Matplotlib library
 * Studied about numpy
 * Implementation of gradient descent.
-* Using Flask and forms
+* Using Flask
