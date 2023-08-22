@@ -11,3 +11,14 @@ def func(*input):
      print(input)
 
 func([1,2,3,4]);
+
+import re
+
+# print(re.__doc__)
+
+
+def reverse_sentence(sentence):
+    words = re.findall('\S+', sentence)
+    print(words)
+
+reverse_sentence("code is goood")
