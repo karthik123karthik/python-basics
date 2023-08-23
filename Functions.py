@@ -16,6 +16,8 @@ import re
 
 # print(re.__doc__)
 
+str = "Geeks for Geeks"
+str.replace('for', '');
 
 def reverse_sentence(sentence):
     words = re.findall('\S+', sentence)
