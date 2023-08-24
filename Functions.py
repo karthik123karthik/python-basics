@@ -14,7 +14,6 @@ func([1,2,3,4]);
 
 import re
 
-# print(re.__doc__)
 
 str = "Geeks for Geeks"
 str.replace('for', '');
