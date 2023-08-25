@@ -1,0 +1,8 @@
+Python is a high level, interpreted Programming language.
+
+advantages:
+Readability and Simplicity: syntax simple  and easy to learn
+wide Range of APplications: used in web tech, ML, AI, DATA FIELD 
+Large Libraries available ( community support of developers is very High)
+Cross Platform - python is platform independent same code can run on multiple operating system
+Easily Integrated with other languages
