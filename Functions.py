@@ -1,25 +1,21 @@
+# passing arguements into a function
 
-# functions are used for code reusability
-def greet(name, place):
-     print(f'hello {name} welcome {place}')
+def default_function(name, age=20):
+    print(name , age)
 
-greet("karthik", "home")
+default_function("karthik", 21)
+default_function("karthik")
 
-# write a function that take the parameters of variable length and prints it
+def variable_arguements(*args):
+    print(args)
 
-def func(*input):
-     print(input)
+variable_arguements([1,2,3,4])
+variable_arguements(1,2,3, 4)
 
-func([1,2,3,4]);
+def variable_arguements_maps(**kwargs):
+    print(kwargs)
 
-import re
+variable_arguements_maps(name =1, age=20, val=50)
 
 
-str = "Geeks for Geeks"
-str.replace('for', '');
 
-def reverse_sentence(sentence):
-    words = re.findall('\S+', sentence)
-    print(words)
-
-reverse_sentence("code is goood").
